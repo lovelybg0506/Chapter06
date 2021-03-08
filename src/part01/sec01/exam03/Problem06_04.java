@@ -27,6 +27,21 @@ public class Problem06_04 {
 		}
 
 		System.out.printf("%d번만에 맞았습니다.",count);
+		s.close();
 	}
 
 }
+
+/* 선생님이 하신것
+
+		if(comnumber==input){
+			break;
+		}else if(comnumber>input){
+		System.out.println("up입니다.");
+		}else {
+		System.out.println("down입니다.");
+		}
+	}
+system.out.println(count+"번만에 맞추셨습니다.");
+s.close();
+*/
